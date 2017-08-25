@@ -1,0 +1,63 @@
+body{
+	padding-bottom: 0.9rem;
+}
+.nav{
+	width: 100%;
+	height: 0.8rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #f7f7f7;
+	border-top: 1px solid #e2e2e2;
+}
+.nav a{
+	width: 33%;
+	height: 100%;
+	display: block;
+	float: left;
+	padding-top: 0.4rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #6C6C6C;
+	font-size: 0.2rem;
+}
+.nav .nav_a1{
+	background: url(../drawable-xhdpi/home.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+.nav .nav_a2{
+	background: url(../drawable-xhdpi/tj.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+.nav .nav_a3{
+	background: url(../drawable-xhdpi/map.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+/*.nav .nav_a4{
+	background: url() no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}*/
+.nav .nav_a5{
+	background: url(../drawable-xhdpi/my.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+.nav .nav_a1.nav_on{
+	background: url(../drawable-xhdpi/home_nor.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+.nav .nav_a2.nav_on{
+	background: url(../drawable-xhdpi/tj_nor.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+.nav .nav_a3.nav_on{
+	background: url(../drawable-xhdpi/map_nor.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
+/*.nav .nav_a4.nav_on{
+	background: url(../img/bangong.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}*/
+.nav .nav_a5.nav_on{
+	background: url(../drawable-xhdpi/my_nor.png) no-repeat center 0.05rem;
+	background-size: 0.48rem auto;
+}
